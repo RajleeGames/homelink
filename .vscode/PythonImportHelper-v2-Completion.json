@@ -1,0 +1,2110 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "Region",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "District",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Facility",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "update_last_login",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "password_validation",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "parser_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "JSONParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "profile_me",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyViewSet",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationViewSet",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "MessageViewSet",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "auth_me",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegionListView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "DistrictListView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomTokenObtainPairView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "BannerListView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "FacilityListView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteAccountView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordView",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "# 🔔 NOTIFICATIONS FROM CORE",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "core.management.commands.load_tz_regions",
+        "description": "core.management.commands.load_tz_regions",
+        "peekOfCode": "class Command(BaseCommand):\n    help = \"Load Tanzania regions and districts by scraping Wikipedia. Requires internet.\"\n    def handle(self, *args, **options):\n        resp = requests.get(WIKI_REGIONS_URL, timeout=20)\n        resp.raise_for_status()\n        soup = BeautifulSoup(resp.text, 'html.parser')\n        # Find the table or list containing regions. Wikipedia structure may change.\n        # We'll iterate over region links in the list of regions on the page.\n        region_links = []\n        # Try to find \"List of regions\" table or the contents of the list",
+        "detail": "core.management.commands.load_tz_regions",
+        "documentation": {}
+    },
+    {
+        "label": "WIKI_REGIONS_URL",
+        "kind": 5,
+        "importPath": "core.management.commands.load_tz_regions",
+        "description": "core.management.commands.load_tz_regions",
+        "peekOfCode": "WIKI_REGIONS_URL = \"https://en.wikipedia.org/wiki/Regions_of_Tanzania\"\nclass Command(BaseCommand):\n    help = \"Load Tanzania regions and districts by scraping Wikipedia. Requires internet.\"\n    def handle(self, *args, **options):\n        resp = requests.get(WIKI_REGIONS_URL, timeout=20)\n        resp.raise_for_status()\n        soup = BeautifulSoup(resp.text, 'html.parser')\n        # Find the table or list containing regions. Wikipedia structure may change.\n        # We'll iterate over region links in the list of regions on the page.\n        region_links = []",
+        "detail": "core.management.commands.load_tz_regions",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "core.management.commands.seed_facilities",
+        "description": "core.management.commands.seed_facilities",
+        "peekOfCode": "class Command(BaseCommand):\n    help = \"Seed default Facility objects (safe to run multiple times).\"\n    def handle(self, *args, **options):\n        created_count = 0\n        updated_count = 0\n        for key, name in FACILITIES:\n            obj, created = Facility.objects.update_or_create(\n                key=key,\n                defaults={\n                    \"name\": name,",
+        "detail": "core.management.commands.seed_facilities",
+        "documentation": {}
+    },
+    {
+        "label": "FACILITIES",
+        "kind": 5,
+        "importPath": "core.management.commands.seed_facilities",
+        "description": "core.management.commands.seed_facilities",
+        "peekOfCode": "FACILITIES = [\n    (\"wifi\", \"Wi-Fi\"),\n    (\"tv\", \"TV\"),\n    (\"kitchen\", \"Kitchen\"),\n    (\"washing_machine\", \"Washing Machine\"),\n    (\"free_parking\", \"Free Parking\"),\n    (\"paid_parking\", \"Paid Parking\"),\n    (\"air_conditioning\", \"Air Conditioning\"),\n    (\"dedicated_workspace\", \"Dedicated Workspace\"),\n    (\"pool\", \"Pool\"),",
+        "detail": "core.management.commands.seed_facilities",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0001_initial",
+        "description": "core.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "core.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0002_district_region_alter_property_options_and_more",
+        "description": "core.migrations.0002_district_region_alter_property_options_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='District',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=140)),",
+        "detail": "core.migrations.0002_district_region_alter_property_options_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0003_banner",
+        "description": "core.migrations.0003_banner",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0002_district_region_alter_property_options_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Banner',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(blank=True, max_length=100)),",
+        "detail": "core.migrations.0003_banner",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0004_user_avatar_user_bio",
+        "description": "core.migrations.0004_user_avatar_user_bio",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0003_banner'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='avatar',\n            field=models.ImageField(blank=True, null=True, upload_to='avatars/'),\n        ),",
+        "detail": "core.migrations.0004_user_avatar_user_bio",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0005_property_category_alter_property_land_size_sqm_and_more",
+        "description": "core.migrations.0005_property_category_alter_property_land_size_sqm_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0004_user_avatar_user_bio'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='property',\n            name='category',\n            field=models.CharField(choices=[('sale', 'For Sale'), ('rent', 'For Rent')], default='rent', help_text='Defines whether property is for SALE or RENT', max_length=10),\n        ),",
+        "detail": "core.migrations.0005_property_category_alter_property_land_size_sqm_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0006_facility_alter_propertyimage_options_and_more",
+        "description": "core.migrations.0006_facility_alter_propertyimage_options_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0005_property_category_alter_property_land_size_sqm_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Facility',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('key', models.CharField(help_text='Stable key (e.g. wifi, kitchen, paid_parking)', max_length=60, unique=True)),",
+        "detail": "core.migrations.0006_facility_alter_propertyimage_options_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0007_passwordresetotp",
+        "description": "core.migrations.0007_passwordresetotp",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0006_facility_alter_propertyimage_options_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='PasswordResetOTP',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('code', models.CharField(max_length=6)),",
+        "detail": "core.migrations.0007_passwordresetotp",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0008_notification_usernotification",
+        "description": "core.migrations.0008_notification_usernotification",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0007_passwordresetotp'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Notification',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=200)),",
+        "detail": "core.migrations.0008_notification_usernotification",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n    list_display = ('id', 'username', 'email', 'role', 'is_staff', 'is_active')\n    search_fields = ('username', 'email', 'phone')\n    list_filter = ('role', 'is_staff', 'is_active')\n    ordering = ('-date_joined',)\n# =========================\n# BANNER ADMIN\n# =========================\n@admin.register(Banner)\nclass BannerAdmin(admin.ModelAdmin):",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BannerAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class BannerAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title', 'is_active', 'created_at')\n    list_filter = ('is_active',)\n    search_fields = ('title',)\n    ordering = ('-created_at',)\n# =========================\n# LOCATION ADMIN\n# =========================\n@admin.register(Region)\nclass RegionAdmin(admin.ModelAdmin):",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RegionAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class RegionAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name')\n    search_fields = ('name',)\n@admin.register(District)\nclass DistrictAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'region')\n    list_filter = ('region',)\n    search_fields = ('name',)\n# =========================\n# FACILITY ADMIN",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DistrictAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class DistrictAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'region')\n    list_filter = ('region',)\n    search_fields = ('name',)\n# =========================\n# FACILITY ADMIN\n# =========================\n@admin.register(Facility)\nclass FacilityAdmin(admin.ModelAdmin):\n    list_display = ('id', 'key', 'name')",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FacilityAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class FacilityAdmin(admin.ModelAdmin):\n    list_display = ('id', 'key', 'name')\n    search_fields = ('key', 'name')\n    ordering = ('name',)\n# =========================\n# PROPERTY IMAGE INLINE\n# =========================\nclass PropertyImageInline(admin.TabularInline):\n    model = PropertyImage\n    extra = 1",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyImageInline",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class PropertyImageInline(admin.TabularInline):\n    model = PropertyImage\n    extra = 1\n    fields = ('image',)\n    show_change_link = True\n# =========================\n# PROPERTY ADMIN\n# =========================\n@admin.register(Property)\nclass PropertyAdmin(admin.ModelAdmin):",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class PropertyAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'title',\n        'property_type',\n        'category',\n        'landlord',\n        'region',\n        'district',\n        'price',",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class ApplicationAdmin(admin.ModelAdmin):\n    list_display = ('id', 'property', 'renter', 'status', 'created_at')\n    list_filter = ('status', 'created_at')\n    search_fields = (\n        'property__title',\n        'renter__username',\n        'renter__email',\n    )\n# =========================\n# MESSAGE ADMIN",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MessageAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class MessageAdmin(admin.ModelAdmin):\n    list_display = ('id', 'sender', 'receiver', 'created_at')\n    search_fields = (\n        'sender__username',\n        'receiver__username',\n    )\n    list_filter = ('created_at',)\n# core/admin.py\nfrom django.contrib import admin\nfrom .models import Notification, UserNotification",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class NotificationAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title', 'is_active', 'created_at')\n    list_filter = ('is_active',)\n    search_fields = ('title', 'message')\n@admin.register(UserNotification)\nclass UserNotificationAdmin(admin.ModelAdmin):\n    list_display = ('user', 'notification', 'read', 'read_at')\n    list_filter = ('read',)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotificationAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class UserNotificationAdmin(admin.ModelAdmin):\n    list_display = ('user', 'notification', 'read', 'read_at')\n    list_filter = ('read',)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "User = get_user_model()\n# =========================\n# USER ADMIN\n# =========================\n@admin.register(User)\nclass UserAdmin(admin.ModelAdmin):\n    list_display = ('id', 'username', 'email', 'role', 'is_staff', 'is_active')\n    search_fields = ('username', 'email', 'phone')\n    list_filter = ('role', 'is_staff', 'is_active')\n    ordering = ('-date_joined',)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class User(AbstractUser):\n    ROLE_CHOICES = (\n        ('landlord', 'Landlord'),\n        ('renter', 'Renter'),\n    )\n    avatar = models.ImageField(upload_to='avatars/', blank=True, null=True)\n    bio = models.TextField(blank=True)\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='renter')\n    phone = models.CharField(max_length=30, blank=True)\n    def __str__(self):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Region",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Region(models.Model):\n    name = models.CharField(max_length=120, unique=True)\n    slug = models.SlugField(max_length=140, unique=True, blank=True)\n    class Meta:\n        ordering = ['name']\n    def __str__(self):\n        return self.name\nclass District(models.Model):\n    region = models.ForeignKey(\n        Region,",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "District",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class District(models.Model):\n    region = models.ForeignKey(\n        Region,\n        on_delete=models.CASCADE,\n        related_name='districts'\n    )\n    name = models.CharField(max_length=140)\n    class Meta:\n        unique_together = ('region', 'name')\n        ordering = ['name']",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Facility",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Facility(models.Model):\n    \"\"\"\n    Reusable facility/amenity model. Properties can have many facilities.\n    Use `key` for stable references (programmatic), `name` for display.\n    \"\"\"\n    key = models.CharField(\n        max_length=60,\n        unique=True,\n        help_text=\"Stable key (e.g. wifi, kitchen, paid_parking)\"\n    )",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Property",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Property(models.Model):\n    # -------- TYPES --------\n    PROPERTY_TYPES = (\n        ('land', 'Land'),\n        ('house', 'House'),\n        ('apartment', 'Apartment'),\n        ('room', 'Room'),\n        ('office', 'Office'),\n    )\n    LISTING_TYPES = (",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyImage",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class PropertyImage(models.Model):\n    property = models.ForeignKey(\n        Property,\n        on_delete=models.CASCADE,\n        related_name='images'\n    )\n    image = models.ImageField(upload_to='properties/%Y/%m/%d/')\n    uploaded_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['uploaded_at']",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Application",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Application(models.Model):\n    STATUS_CHOICES = (\n        ('pending', 'Pending'),\n        ('accepted', 'Accepted'),\n        ('rejected', 'Rejected'),\n    )\n    property = models.ForeignKey(\n        Property,\n        on_delete=models.CASCADE,\n        related_name='applications'",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Message(models.Model):\n    sender = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        related_name='sent_messages'\n    )\n    receiver = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        related_name='received_messages'",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Banner",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Banner(models.Model):\n    title = models.CharField(max_length=100, blank=True)\n    image = models.ImageField(upload_to='banner/')\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title or f\"Banner {self.id}\"\nclass PasswordResetOTP(models.Model):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetOTP",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class PasswordResetOTP(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)\n    created_at = models.DateTimeField(auto_now_add=True)\n    is_used = models.BooleanField(default=False)\n    def is_expired(self):\n        return timezone.now() > self.created_at + timezone.timedelta(minutes=10)\n    def __str__(self):\n        return f\"{self.user} - {self.code}\"\n# core/models.py",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Notification",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Notification(models.Model):\n    title = models.CharField(max_length=200)\n    message = models.TextField()\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title\nclass UserNotification(models.Model):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserNotification",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class UserNotification(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    notification = models.ForeignKey(Notification, on_delete=models.CASCADE)\n    read = models.BooleanField(default=False)\n    read_at = models.DateTimeField(null=True, blank=True)\n    class Meta:\n        unique_together = ('user', 'notification')",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_default_facilities",
+        "kind": 2,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "def create_default_facilities():\n    \"\"\"\n    Convenience function to create the DEFAULT_FACILITIES.\n    Call from Django shell after migrations:\n      python manage.py shell\n      from core.models import create_default_facilities\n      create_default_facilities()\n    \"\"\"\n    created = []\n    for key, name in DEFAULT_FACILITIES:",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\n# =========================\n# USER\n# =========================\nclass User(AbstractUser):\n    ROLE_CHOICES = (\n        ('landlord', 'Landlord'),\n        ('renter', 'Renter'),\n    )\n    avatar = models.ImageField(upload_to='avatars/', blank=True, null=True)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FACILITIES",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "DEFAULT_FACILITIES = [\n    (\"wifi\", \"Wi-Fi\"),\n    (\"internet\", \"Internet\"),                 # alternate/alias for wifi if used\n    (\"tv\", \"TV\"),\n    (\"kitchen\", \"Kitchen\"),\n    (\"washing_machine\", \"Washing Machine\"),\n    (\"free_parking\", \"Free Parking\"),\n    (\"paid_parking\", \"Paid Parking\"),\n    (\"air_conditioning\", \"Air Conditioning\"),\n    (\"dedicated_workspace\", \"Dedicated Workspace\"),",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\nclass Notification(models.Model):\n    title = models.CharField(max_length=200)\n    message = models.TextField()\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    # allow frontend 'name' to map to first_name\n    name = serializers.CharField(source='first_name', required=False, allow_blank=True)\n    # Allow file upload and normal representation for avatar\n    avatar = serializers.ImageField(required=False, allow_null=True, use_url=True)\n    class Meta:\n        model = User\n        fields = [\n            'id', 'username', 'name', 'first_name', 'last_name',\n            'email', 'phone', 'bio', 'avatar', 'role', 'date_joined'",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True)\n    class Meta:\n        model = User\n        fields = ['id', 'username', 'email', 'password', 'role', 'phone']\n    def create(self, validated_data):\n        user = User.objects.create_user(\n            username=validated_data['username'],\n            email=validated_data.get('email', ''),\n            password=validated_data['password'],",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegionSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class RegionSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Region\n        fields = ['id', 'name']\nclass DistrictSerializer(serializers.ModelSerializer):\n    region = RegionSerializer(read_only=True)\n    class Meta:\n        model = District\n        fields = ['id', 'name', 'region']\n# ---------------- PropertyImage ----------------",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DistrictSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class DistrictSerializer(serializers.ModelSerializer):\n    region = RegionSerializer(read_only=True)\n    class Meta:\n        model = District\n        fields = ['id', 'name', 'region']\n# ---------------- PropertyImage ----------------\nclass PropertyImageSerializer(serializers.ModelSerializer):\n    image = serializers.ImageField(use_url=True)\n    class Meta:\n        model = PropertyImage",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyImageSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class PropertyImageSerializer(serializers.ModelSerializer):\n    image = serializers.ImageField(use_url=True)\n    class Meta:\n        model = PropertyImage\n        fields = ['id', 'image', 'uploaded_at']\n    def to_representation(self, instance):\n        rep = super().to_representation(instance)\n        request = self.context.get('request', None)\n        img = rep.get('image')\n        if img and request and isinstance(img, str):",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FacilitySerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class FacilitySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Facility\n        fields = [\"id\", \"key\", \"name\"]\n# ---------------- Banner ----------------\nclass BannerSerializer(serializers.ModelSerializer):\n    image = serializers.SerializerMethodField()\n    class Meta:\n        model = Banner\n        fields = ['id', 'title', 'image']",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "BannerSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class BannerSerializer(serializers.ModelSerializer):\n    image = serializers.SerializerMethodField()\n    class Meta:\n        model = Banner\n        fields = ['id', 'title', 'image']\n    def get_image(self, obj):\n        request = self.context.get('request')\n        if obj.image:\n            try:\n                return request.build_absolute_uri(obj.image.url)",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PropertySerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class PropertySerializer(serializers.ModelSerializer):\n    landlord = UserSerializer(read_only=True)\n    images = PropertyImageSerializer(many=True, read_only=True)\n    region = RegionSerializer(read_only=True)\n    district = DistrictSerializer(read_only=True)\n    # facilities read + write\n    facilities = FacilitySerializer(many=True, read_only=True)\n    # Accept \"facility_ids\": [1,2] in JSON body (mapped to 'facilities' internally)\n    facility_ids = serializers.PrimaryKeyRelatedField(\n        queryset=Facility.objects.all(), many=True, write_only=True, required=False, source='facilities'",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ApplicationSerializer(serializers.ModelSerializer):\n    renter = UserSerializer(read_only=True)\n    property = PropertySerializer(read_only=True)\n    property_id = serializers.PrimaryKeyRelatedField(\n        queryset=Property.objects.all(), write_only=True, source='property'\n    )\n    class Meta:\n        model = Application\n        fields = ['id', 'property', 'property_id', 'renter', 'message', 'status', 'created_at']\n        read_only_fields = ['id', 'renter', 'created_at']",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MessageSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class MessageSerializer(serializers.ModelSerializer):\n    sender = UserSerializer(read_only=True)\n    receiver = UserSerializer(read_only=True)\n    receiver_id = serializers.PrimaryKeyRelatedField(\n        queryset=User.objects.all(), write_only=True, source='receiver'\n    )\n    class Meta:\n        model = Message\n        fields = ['id', 'sender', 'receiver', 'receiver_id', 'text', 'created_at']\n        read_only_fields = ['id', 'sender', 'created_at']",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CustomTokenObtainPairSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):\n    \"\"\"\n    Allow login by username, email or phone. Returns tokens plus user info.\n    \"\"\"\n    username_field = 'username'\n    def validate(self, attrs):\n        username_or_email_or_phone = attrs.get('username')\n        password = attrs.get('password')\n        user = None\n        try:",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ChangePasswordSerializer(serializers.Serializer):\n    old_password = serializers.CharField(required=True)\n    new_password1 = serializers.CharField(required=True)\n    new_password2 = serializers.CharField(required=True)\n    def validate_old_password(self, value):\n        user = self.context['request'].user\n        if not user.check_password(value):\n            raise serializers.ValidationError(_(\"Old password is incorrect.\"))\n        return value\n    def validate(self, data):",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteAccountSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class DeleteAccountSerializer(serializers.Serializer):\n    password = serializers.CharField(write_only=True, required=True)\n    def validate(self, attrs):\n        request = self.context.get(\"request\")\n        user = request.user\n        password = attrs.get(\"password\")\n        if not password:\n            raise serializers.ValidationError({\n                \"password\": \"Password is required to delete your account.\"\n            })",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ForgotPasswordSerializer(serializers.Serializer):\n    email = serializers.EmailField()\nclass VerifyOTPSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\nclass ResetPasswordSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\n    new_password = serializers.CharField()\nclass NotificationSerializer(serializers.ModelSerializer):",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class VerifyOTPSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\nclass ResetPasswordSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\n    new_password = serializers.CharField()\nclass NotificationSerializer(serializers.ModelSerializer):\n    read = serializers.SerializerMethodField()\n    class Meta:",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ResetPasswordSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    code = serializers.CharField(max_length=6)\n    new_password = serializers.CharField()\nclass NotificationSerializer(serializers.ModelSerializer):\n    read = serializers.SerializerMethodField()\n    class Meta:\n        model = Notification\n        fields = ('id','title','message','is_active','send_to_all','created_at','read')\n    def get_read(self, obj):",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class NotificationSerializer(serializers.ModelSerializer):\n    read = serializers.SerializerMethodField()\n    class Meta:\n        model = Notification\n        fields = ('id','title','message','is_active','send_to_all','created_at','read')\n    def get_read(self, obj):\n        user = self.context.get('request').user\n        if not user or user.is_anonymous:\n            return False\n        try:",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "User = get_user_model()\n# ---------------- User ----------------\nclass UserSerializer(serializers.ModelSerializer):\n    # allow frontend 'name' to map to first_name\n    name = serializers.CharField(source='first_name', required=False, allow_blank=True)\n    # Allow file upload and normal representation for avatar\n    avatar = serializers.ImageField(required=False, allow_null=True, use_url=True)\n    class Meta:\n        model = User\n        fields = [",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class RegisterView(generics.CreateAPIView):\n    \"\"\"\n    Register new user.\n    \"\"\"\n    serializer_class = RegisterSerializer\n    permission_classes = [permissions.AllowAny]\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        username = serializer.validated_data.get('username')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegionListView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class RegionListView(generics.ListAPIView):\n    queryset = Region.objects.all().order_by('name')\n    serializer_class = RegionSerializer\n    permission_classes = [permissions.AllowAny]\nclass DistrictListView(generics.ListAPIView):\n    serializer_class = DistrictSerializer\n    permission_classes = [permissions.AllowAny]\n    def get_queryset(self):\n        qs = District.objects.select_related('region').all().order_by('name')\n        region_id = self.request.query_params.get('region', None)",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "DistrictListView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class DistrictListView(generics.ListAPIView):\n    serializer_class = DistrictSerializer\n    permission_classes = [permissions.AllowAny]\n    def get_queryset(self):\n        qs = District.objects.select_related('region').all().order_by('name')\n        region_id = self.request.query_params.get('region', None)\n        if region_id:\n            qs = qs.filter(region_id=region_id)\n        return qs\n# ================= Property ViewSet =================",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyViewSet",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class PropertyViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    Handles create (multipart/form-data with images[]), list, retrieve, update, delete.\n    Query params supported:\n      - available=1  (only available)\n      - landlord=<id> (filter by landlord id)\n      - region=<id> (filter by region)\n      - district=<id> (filter by district)\n    \"\"\"\n    queryset = Property.objects.select_related('region', 'district', 'landlord')\\",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationViewSet",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ApplicationViewSet(viewsets.ModelViewSet):\n    queryset = Application.objects.select_related('property', 'renter').all().order_by('-created_at')\n    serializer_class = ApplicationSerializer\n    permission_classes = [permissions.IsAuthenticated]\n    def perform_create(self, serializer):\n        serializer.save(renter=self.request.user)\n    def get_queryset(self):\n        user = self.request.user\n        if user.role == 'landlord':\n            # landlord sees applications for their properties",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "MessageViewSet",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class MessageViewSet(viewsets.ModelViewSet):\n    queryset = Message.objects.select_related('sender', 'receiver').all().order_by('-created_at')\n    serializer_class = MessageSerializer\n    permission_classes = [permissions.IsAuthenticated]\n    def get_queryset(self):\n        user = self.request.user\n        return Message.objects.filter(models.Q(sender=user) | models.Q(receiver=user)).order_by('-created_at')\n# ================= Custom JWT Login View =================\n# We import serializer from serializers.py; make sure CustomTokenObtainPairSerializer is defined there.\nclass CustomTokenObtainPairView(TokenObtainPairView):",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomTokenObtainPairView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class CustomTokenObtainPairView(TokenObtainPairView):\n    serializer_class = CustomTokenObtainPairSerializer\n# ================= AUTH ME ENDPOINT =================\n@api_view(['GET'])\n@permission_classes([permissions.IsAuthenticated])\ndef auth_me(request):\n    \"\"\"\n    Returns logged-in user profile\n    \"\"\"\n    user = request.user",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "BannerListView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class BannerListView(ListAPIView):\n    serializer_class = BannerSerializer\n    def get_queryset(self):\n        return Banner.objects.filter(is_active=True)\n@api_view(['GET', 'PATCH', 'PUT'])\n@permission_classes([IsAuthenticated])\n@parser_classes([MultiPartParser, FormParser, JSONParser])\ndef profile_me(request):\n    user = request.user\n    print(\"---- profile_me DEBUG ----\")",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "FacilityListView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class FacilityListView(generics.ListAPIView):\n    \"\"\"\n    List all available facilities (wifi, parking, gym, etc)\n    \"\"\"\n    queryset = Facility.objects.all().order_by('name')\n    serializer_class = FacilitySerializer\n    permission_classes = [permissions.AllowAny]\nclass ChangePasswordView(APIView):\n    permission_classes = [IsAuthenticated]\n    def post(self, request, *args, **kwargs):",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ChangePasswordView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ChangePasswordView(APIView):\n    permission_classes = [IsAuthenticated]\n    def post(self, request, *args, **kwargs):\n        serializer = ChangePasswordSerializer(data=request.data, context={'request': request})\n        if not serializer.is_valid():\n            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\n        user = request.user\n        new_password = serializer.validated_data['new_password1']\n        user.set_password(new_password)\n        user.save()",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteAccountView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class DeleteAccountView(APIView):\n    permission_classes = [IsAuthenticated]\n    def delete(self, request):\n        serializer = DeleteAccountSerializer(\n            data=request.data,\n            context={\"request\": request}\n        )\n        serializer.is_valid(raise_exception=True)\n        user = request.user\n        user.delete()",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPasswordView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ForgotPasswordView(APIView):\n    permission_classes = [AllowAny]\n    def post(self, request):\n        serializer = ForgotPasswordSerializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        email = serializer.validated_data['email']\n        try:\n            user = User.objects.get(email=email)\n        except User.DoesNotExist:\n            return Response(",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTPView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class VerifyOTPView(APIView):\n    permission_classes = [AllowAny]\n    def post(self, request):\n        serializer = VerifyOTPSerializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        email = serializer.validated_data['email']\n        code = serializer.validated_data['code']\n        try:\n            user = User.objects.get(email=email)\n            otp = PasswordResetOTP.objects.filter(",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ResetPasswordView(APIView):\n    permission_classes = [AllowAny]\n    def post(self, request):\n        serializer = ResetPasswordSerializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        email = serializer.validated_data['email']\n        code = serializer.validated_data['code']\n        new_password = serializer.validated_data['new_password']\n        try:\n            user = User.objects.get(email=email)",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationListAPIView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class NotificationListAPIView(APIView):\n    permission_classes = [IsAuthenticated]\n    def get(self, request):\n        notifications = Notification.objects.filter(is_active=True)\n        data = []\n        for n in notifications:\n            un, _ = UserNotification.objects.get_or_create(\n                user=request.user,\n                notification=n\n            )",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "auth_me",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def auth_me(request):\n    \"\"\"\n    Returns logged-in user profile\n    \"\"\"\n    user = request.user\n    serializer = UserSerializer(user, context={'request': request})\n    return Response(serializer.data)\nclass BannerListView(ListAPIView):\n    serializer_class = BannerSerializer\n    def get_queryset(self):",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_me",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def profile_me(request):\n    user = request.user\n    print(\"---- profile_me DEBUG ----\")\n    print(\"method:\", request.method)\n    print(\"content_type:\", request.content_type)\n    print(\"FILES keys:\", list(request.FILES.keys()))\n    print(\"DATA keys:\", list(request.data.keys()))\n    if request.method == 'GET':\n        return Response(UserSerializer(user, context={'request': request}).data)\n    partial = request.method == 'PATCH'",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "mark_notification_read",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def mark_notification_read(request, pk):\n    notification = get_object_or_404(Notification, pk=pk)\n    un, _ = UserNotification.objects.get_or_create(\n        user=request.user,\n        notification=notification\n    )\n    un.read = True\n    un.read_at = timezone.now()\n    un.save()\n    return Response({\"detail\": \"marked read\"})",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "mark_all_notifications_read",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def mark_all_notifications_read(request):\n    notifications = Notification.objects.filter(is_active=True)\n    for n in notifications:\n        un, _ = UserNotification.objects.get_or_create(\n            user=request.user,\n            notification=n\n        )\n        un.read = True\n        un.read_at = timezone.now()\n        un.save()",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "User = get_user_model()\n# ================= Register View =================\nclass RegisterView(generics.CreateAPIView):\n    \"\"\"\n    Register new user.\n    \"\"\"\n    serializer_class = RegisterSerializer\n    permission_classes = [permissions.AllowAny]\n    def create(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "rental_project.asgi",
+        "description": "rental_project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "rental_project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Load .env file (place .env next to manage.py)\nload_dotenv(BASE_DIR / '.env')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-_qy4gin_n&soffo&kbr(*)vee_d=%l*opk0)vh0%zv#)_c4d!5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-_qy4gin_n&soffo&kbr(*)vee_d=%l*opk0)vh0%zv#)_c4d!5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST\n    'rest_framework',\n    'rest_framework.authtoken',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'rental_project.urls'",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'rental_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # keep templates directory at project root (next to manage.py)\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # keep templates directory at project root (next to manage.py)\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'rental_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\n# Simple JWT configuration",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\n# Simple JWT configuration\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n}\n# ─── EMAIL (SMTP via Zoho) ─────────────────────────────────────────────────────",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_EMAIL",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "SERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_TAGS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "rental_project.urls",
+        "description": "rental_project.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'properties', PropertyViewSet, basename='property')\nrouter.register(r'applications', ApplicationViewSet, basename='application')\nrouter.register(r'messages', MessageViewSet, basename='message')\n# --------------------\n# URL Patterns\n# --------------------\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    # API routers",
+        "detail": "rental_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "rental_project.urls",
+        "description": "rental_project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # API routers\n    path('api/', include(router.urls)),\n    # Locations\n    path('api/regions/', RegionListView.as_view(), name='regions-list'),\n    path('api/districts/', DistrictListView.as_view(), name='districts-list'),\n    # Facilities\n    path('api/facilities/', FacilityListView.as_view(), name='facilities-list'),\n    # Banners",
+        "detail": "rental_project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "rental_project.wsgi",
+        "description": "rental_project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "rental_project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rental_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
