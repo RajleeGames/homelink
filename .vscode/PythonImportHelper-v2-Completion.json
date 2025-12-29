@@ -1797,7 +1797,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Load .env file (place .env next to manage.py)\nload_dotenv(BASE_DIR / '.env')\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-_qy4gin_n&soffo&kbr(*)vee_d=%l*opk0)vh0%zv#)_c4d!5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Load .env file (place .env next to manage.py)\nload_dotenv(BASE_DIR / '.env')\n# SECURITY\nSECRET_KEY = os.getenv('SECRET_KEY', 'fallback-secret-key')\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost').split(',')\n# CORS / CSRF\nCORS_ALLOW_ALL_ORIGINS = True\nCSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1806,7 +1806,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-_qy4gin_n&soffo&kbr(*)vee_d=%l*opk0)vh0%zv#)_c4d!5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY', 'fallback-secret-key')\nDEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost').split(',')\n# CORS / CSRF\nCORS_ALLOW_ALL_ORIGINS = True\nCSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1815,7 +1815,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = os.getenv('DEBUG', 'False') == 'True'\nALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost').split(',')\n# CORS / CSRF\nCORS_ALLOW_ALL_ORIGINS = True\nCSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1824,7 +1824,25 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['192.168.1.4', 'localhost', '127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST",
+        "peekOfCode": "ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost').split(',')\n# CORS / CSRF\nCORS_ALLOW_ALL_ORIGINS = True\nCSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [f\"https://{host}\" for host in ALLOWED_HOSTS if host != 'localhost']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST Framework",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1833,7 +1851,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST\n    'rest_framework',\n    'rest_framework.authtoken',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # REST Framework\n    'rest_framework',\n    'rest_framework.authtoken',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1842,7 +1860,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'rental_project.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',  # for static in prod\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',  # for CORS\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1851,7 +1869,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "ROOT_URLCONF = 'rental_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # keep templates directory at project root (next to manage.py)\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'rental_project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],  # project-level templates\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1860,7 +1878,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # keep templates directory at project root (next to manage.py)\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],  # project-level templates\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1869,7 +1887,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'rental_project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'rental_project.wsgi.application'\n# Database (SQLite for now; you can switch to Postgres in prod)\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\nAUTH_PASSWORD_VALIDATORS = [",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1878,7 +1896,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\nAUTH_PASSWORD_VALIDATORS = [\n    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},\n    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',},",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1887,7 +1905,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},\n    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',},\n    {'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',},\n    {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',},\n]\n# Internationalization\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1896,7 +1914,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static & Media (production-ready)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1905,7 +1923,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static & Media (production-ready)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1914,7 +1932,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static & Media (production-ready)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1923,7 +1941,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static & Media (production-ready)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1932,7 +1950,34 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Media\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']  # dev static\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {",
+        "detail": "rental_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "rental_project.settings",
+        "description": "rental_project.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1941,7 +1986,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1950,7 +1995,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1959,7 +2004,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Custom user model\nAUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\nSIMPLE_JWT = {",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1968,7 +2013,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'core.User'\n# -------------------------\n# REST framework + SimpleJWT\n# -------------------------\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\n# Simple JWT configuration",
+        "peekOfCode": "AUTH_USER_MODEL = 'core.User'\n# REST framework + JWT\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1977,7 +2022,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\n# Simple JWT configuration\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1986,7 +2031,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n}\n# ─── EMAIL (SMTP via Zoho) ─────────────────────────────────────────────────────",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=12),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=30),\n    \"ROTATE_REFRESH_TOKENS\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"ALGORITHM\": \"HS256\",\n    \"SIGNING_KEY\": SECRET_KEY,\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n}\n# Email (Zoho)",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -1995,7 +2040,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'info@worldlinksecurity.co.tz')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2004,7 +2049,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {",
+        "peekOfCode": "EMAIL_HOST = 'smtp.zoho.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'info@worldlinksecurity.co.tz')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2013,7 +2058,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'info@worldlinksecurity.co.tz')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2022,7 +2067,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True            # TLS on port 587\nEMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'info@worldlinksecurity.co.tz')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2031,7 +2076,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'info@worldlinksecurity.co.tz'\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',",
+        "peekOfCode": "EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', 'info@worldlinksecurity.co.tz')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2040,7 +2085,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # loaded from .env\nDEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')\nDEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2049,7 +2094,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "DEFAULT_FROM_EMAIL = 'World Link Security Systems <info@worldlinksecurity.co.tz>'\nSERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = f\"World Link Security Systems <{EMAIL_HOST_USER}>\"\nSERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2058,7 +2103,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "SERVER_EMAIL = EMAIL_HOST_USER\n# ─── MESSAGES ─────────────────────────────────────────────────────────────────\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}",
+        "peekOfCode": "SERVER_EMAIL = EMAIL_HOST_USER\n# Messages\nfrom django.contrib.messages import constants as messages\nMESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}",
         "detail": "rental_project.settings",
         "documentation": {}
     },
@@ -2067,7 +2112,7 @@
         "kind": 5,
         "importPath": "rental_project.settings",
         "description": "rental_project.settings",
-        "peekOfCode": "MESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.DEBUG: 'secondary',\n    messages.INFO: 'info',\n    messages.SUCCESS: 'success',\n    messages.WARNING: 'warning',\n    messages.ERROR: 'danger',\n}\n# Security settings for production\nif not DEBUG:\n    SECURE_BROWSER_XSS_FILTER = True",
         "detail": "rental_project.settings",
         "documentation": {}
     },
