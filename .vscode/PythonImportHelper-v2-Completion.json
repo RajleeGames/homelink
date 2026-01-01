@@ -89,14 +89,6 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
-        "isExtraImport": true,
-        "detail": "django.utils",
-        "documentation": {}
-    },
-    {
         "label": "django.contrib.auth.models",
         "kind": 6,
         "isExtraImport": true,
@@ -189,22 +181,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -333,7 +309,7 @@
         "documentation": {}
     },
     {
-        "label": "models",
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -434,6 +410,39 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "ContentFile",
+        "importPath": "django.core.files.base",
+        "description": "django.core.files.base",
+        "isExtraImport": true,
+        "detail": "django.core.files.base",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
         "documentation": {}
     },
     {
@@ -848,15 +857,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "get_asgi_application",
         "importPath": "django.core.asgi",
         "description": "django.core.asgi",
@@ -1181,6 +1181,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0009_propertyimage_thumbnail_alter_facility_description_and_more",
+        "description": "core.migrations.0009_propertyimage_thumbnail_alter_facility_description_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0008_notification_usernotification'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='propertyimage',\n            name='thumbnail',\n            field=models.ImageField(blank=True, null=True, upload_to='properties/thumbnails/%Y/%m/%d/'),\n        ),",
+        "detail": "core.migrations.0009_propertyimage_thumbnail_alter_facility_description_and_more",
+        "documentation": {}
+    },
+    {
         "label": "UserAdmin",
         "kind": 6,
         "importPath": "core.admin",
@@ -1302,7 +1311,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class User(AbstractUser):\n    ROLE_CHOICES = (\n        ('landlord', 'Landlord'),\n        ('renter', 'Renter'),\n    )\n    avatar = models.ImageField(upload_to='avatars/', blank=True, null=True)\n    bio = models.TextField(blank=True)\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='renter')\n    phone = models.CharField(max_length=30, blank=True)\n    def __str__(self):",
+        "peekOfCode": "class User(AbstractUser):\n    ROLE_CHOICES = (\n        (\"landlord\", \"Landlord\"),\n        (\"renter\", \"Renter\"),\n    )\n    avatar = models.ImageField(upload_to=\"avatars/\", blank=True, null=True)\n    bio = models.TextField(blank=True)\n    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default=\"renter\")\n    phone = models.CharField(max_length=30, blank=True)\n    def __str__(self):",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1311,7 +1320,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Region(models.Model):\n    name = models.CharField(max_length=120, unique=True)\n    slug = models.SlugField(max_length=140, unique=True, blank=True)\n    class Meta:\n        ordering = ['name']\n    def __str__(self):\n        return self.name\nclass District(models.Model):\n    region = models.ForeignKey(\n        Region,",
+        "peekOfCode": "class Region(models.Model):\n    name = models.CharField(max_length=120, unique=True)\n    slug = models.SlugField(max_length=140, unique=True, blank=True)\n    class Meta:\n        ordering = [\"name\"]\n    def __str__(self):\n        return self.name\nclass District(models.Model):\n    region = models.ForeignKey(Region, on_delete=models.CASCADE, related_name=\"districts\")\n    name = models.CharField(max_length=140)",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1320,7 +1329,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class District(models.Model):\n    region = models.ForeignKey(\n        Region,\n        on_delete=models.CASCADE,\n        related_name='districts'\n    )\n    name = models.CharField(max_length=140)\n    class Meta:\n        unique_together = ('region', 'name')\n        ordering = ['name']",
+        "peekOfCode": "class District(models.Model):\n    region = models.ForeignKey(Region, on_delete=models.CASCADE, related_name=\"districts\")\n    name = models.CharField(max_length=140)\n    class Meta:\n        unique_together = (\"region\", \"name\")\n        ordering = [\"name\"]\n    def __str__(self):\n        return f\"{self.name} ({self.region.name})\"\n# =========================\n# FACILITIES (AMENITIES)",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1329,7 +1338,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Facility(models.Model):\n    \"\"\"\n    Reusable facility/amenity model. Properties can have many facilities.\n    Use `key` for stable references (programmatic), `name` for display.\n    \"\"\"\n    key = models.CharField(\n        max_length=60,\n        unique=True,\n        help_text=\"Stable key (e.g. wifi, kitchen, paid_parking)\"\n    )",
+        "peekOfCode": "class Facility(models.Model):\n    key = models.CharField(max_length=60, unique=True)\n    name = models.CharField(max_length=120)\n    description = models.TextField(blank=True)\n    icon = models.CharField(max_length=80, blank=True)\n    class Meta:\n        ordering = [\"name\"]\n    def __str__(self):\n        return self.name\nDEFAULT_FACILITIES = [",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1338,7 +1347,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Property(models.Model):\n    # -------- TYPES --------\n    PROPERTY_TYPES = (\n        ('land', 'Land'),\n        ('house', 'House'),\n        ('apartment', 'Apartment'),\n        ('room', 'Room'),\n        ('office', 'Office'),\n    )\n    LISTING_TYPES = (",
+        "peekOfCode": "class Property(models.Model):\n    PROPERTY_TYPES = (\n        (\"land\", \"Land\"),\n        (\"house\", \"House\"),\n        (\"apartment\", \"Apartment\"),\n        (\"room\", \"Room\"),\n        (\"office\", \"Office\"),\n    )\n    LISTING_TYPES = ((\"sale\", \"For Sale\"), (\"rent\", \"For Rent\"))\n    landlord = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name=\"properties\")",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1347,7 +1356,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class PropertyImage(models.Model):\n    property = models.ForeignKey(\n        Property,\n        on_delete=models.CASCADE,\n        related_name='images'\n    )\n    image = models.ImageField(upload_to='properties/%Y/%m/%d/')\n    uploaded_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['uploaded_at']",
+        "peekOfCode": "class PropertyImage(models.Model):\n    property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name=\"images\")\n    image = models.ImageField(upload_to=\"properties/%Y/%m/%d/\")\n    thumbnail = models.ImageField(upload_to=\"properties/thumbnails/%Y/%m/%d/\", null=True, blank=True)\n    uploaded_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = [\"uploaded_at\"]\n    def __str__(self):\n        return f\"Image for {self.property.title}\"\n    def _is_new_file(self):",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1356,7 +1365,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Application(models.Model):\n    STATUS_CHOICES = (\n        ('pending', 'Pending'),\n        ('accepted', 'Accepted'),\n        ('rejected', 'Rejected'),\n    )\n    property = models.ForeignKey(\n        Property,\n        on_delete=models.CASCADE,\n        related_name='applications'",
+        "peekOfCode": "class Application(models.Model):\n    STATUS_CHOICES = ((\"pending\", \"Pending\"), (\"accepted\", \"Accepted\"), (\"rejected\", \"Rejected\"))\n    property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name=\"applications\")\n    renter = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    message = models.TextField(blank=True)\n    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=\"pending\")\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.property.title} - {self.status}\"\n# =========================",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1365,7 +1374,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Message(models.Model):\n    sender = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        related_name='sent_messages'\n    )\n    receiver = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE,\n        related_name='received_messages'",
+        "peekOfCode": "class Message(models.Model):\n    sender = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name=\"sent_messages\")\n    receiver = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name=\"received_messages\")\n    text = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n# =========================\n# BANNERS\n# =========================\nclass Banner(models.Model):\n    title = models.CharField(max_length=100, blank=True)",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1374,7 +1383,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Banner(models.Model):\n    title = models.CharField(max_length=100, blank=True)\n    image = models.ImageField(upload_to='banner/')\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title or f\"Banner {self.id}\"\nclass PasswordResetOTP(models.Model):",
+        "peekOfCode": "class Banner(models.Model):\n    title = models.CharField(max_length=100, blank=True)\n    image = models.ImageField(upload_to=\"banner/\")\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = [\"-created_at\"]\n    def __str__(self):\n        return self.title or f\"Banner {self.id}\"\n    def save(self, *args, **kwargs):",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1383,7 +1392,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class PasswordResetOTP(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)\n    created_at = models.DateTimeField(auto_now_add=True)\n    is_used = models.BooleanField(default=False)\n    def is_expired(self):\n        return timezone.now() > self.created_at + timezone.timedelta(minutes=10)\n    def __str__(self):\n        return f\"{self.user} - {self.code}\"\n# core/models.py",
+        "peekOfCode": "class PasswordResetOTP(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    code = models.CharField(max_length=6)\n    created_at = models.DateTimeField(auto_now_add=True)\n    is_used = models.BooleanField(default=False)\n    def is_expired(self):\n        return timezone.now() > self.created_at + timezone.timedelta(minutes=10)\n    def __str__(self):\n        return f\"{self.user} - {self.code}\"\n# =========================",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1392,7 +1401,7 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class Notification(models.Model):\n    title = models.CharField(max_length=200)\n    message = models.TextField()\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title\nclass UserNotification(models.Model):",
+        "peekOfCode": "class Notification(models.Model):\n    title = models.CharField(max_length=200)\n    message = models.TextField()\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = [\"-created_at\"]\n    def __str__(self):\n        return self.title\nclass UserNotification(models.Model):",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1401,7 +1410,16 @@
         "kind": 6,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "class UserNotification(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    notification = models.ForeignKey(Notification, on_delete=models.CASCADE)\n    read = models.BooleanField(default=False)\n    read_at = models.DateTimeField(null=True, blank=True)\n    class Meta:\n        unique_together = ('user', 'notification')",
+        "peekOfCode": "class UserNotification(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    notification = models.ForeignKey(Notification, on_delete=models.CASCADE)\n    read = models.BooleanField(default=False)\n    read_at = models.DateTimeField(null=True, blank=True)\n    class Meta:\n        unique_together = (\"user\", \"notification\")",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "optimize_image_file",
+        "kind": 2,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "def optimize_image_file(uploaded_file, max_width=1200, quality=75, convert_to_webp=True):\n    \"\"\"\n    Accepts an UploadedFile or a file-like object.\n    Returns a ContentFile containing an optimized image (WebP by default).\n    \"\"\"\n    try:\n        img = Image.open(uploaded_file)\n    except Exception:\n        return None\n    if img.mode in (\"RGBA\", \"P\"):",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1410,7 +1428,7 @@
         "kind": 2,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "def create_default_facilities():\n    \"\"\"\n    Convenience function to create the DEFAULT_FACILITIES.\n    Call from Django shell after migrations:\n      python manage.py shell\n      from core.models import create_default_facilities\n      create_default_facilities()\n    \"\"\"\n    created = []\n    for key, name in DEFAULT_FACILITIES:",
+        "peekOfCode": "def create_default_facilities():\n    created = []\n    for key, name in DEFAULT_FACILITIES:\n        obj, did_create = Facility.objects.get_or_create(key=key, defaults={\"name\": name})\n        if did_create:\n            created.append(obj)\n    return created\n# =========================\n# PROPERTY\n# =========================",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1419,7 +1437,7 @@
         "kind": 5,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "User = settings.AUTH_USER_MODEL\n# =========================\n# USER\n# =========================\nclass User(AbstractUser):\n    ROLE_CHOICES = (\n        ('landlord', 'Landlord'),\n        ('renter', 'Renter'),\n    )\n    avatar = models.ImageField(upload_to='avatars/', blank=True, null=True)",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\n# ------------------------------\n# Image optimization helper\n# ------------------------------\ndef optimize_image_file(uploaded_file, max_width=1200, quality=75, convert_to_webp=True):\n    \"\"\"\n    Accepts an UploadedFile or a file-like object.\n    Returns a ContentFile containing an optimized image (WebP by default).\n    \"\"\"\n    try:",
         "detail": "core.models",
         "documentation": {}
     },
@@ -1428,16 +1446,7 @@
         "kind": 5,
         "importPath": "core.models",
         "description": "core.models",
-        "peekOfCode": "DEFAULT_FACILITIES = [\n    (\"wifi\", \"Wi-Fi\"),\n    (\"internet\", \"Internet\"),                 # alternate/alias for wifi if used\n    (\"tv\", \"TV\"),\n    (\"kitchen\", \"Kitchen\"),\n    (\"washing_machine\", \"Washing Machine\"),\n    (\"free_parking\", \"Free Parking\"),\n    (\"paid_parking\", \"Paid Parking\"),\n    (\"air_conditioning\", \"Air Conditioning\"),\n    (\"dedicated_workspace\", \"Dedicated Workspace\"),",
-        "detail": "core.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 5,
-        "importPath": "core.models",
-        "description": "core.models",
-        "peekOfCode": "User = settings.AUTH_USER_MODEL\nclass Notification(models.Model):\n    title = models.CharField(max_length=200)\n    message = models.TextField()\n    is_active = models.BooleanField(default=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['-created_at']\n    def __str__(self):\n        return self.title",
+        "peekOfCode": "DEFAULT_FACILITIES = [\n    (\"wifi\", \"Wi-Fi\"),\n    (\"internet\", \"Internet\"),\n    (\"tv\", \"TV\"),\n    (\"kitchen\", \"Kitchen\"),\n    (\"washing_machine\", \"Washing Machine\"),\n    (\"free_parking\", \"Free Parking\"),\n    (\"paid_parking\", \"Paid Parking\"),\n    (\"air_conditioning\", \"Air Conditioning\"),\n    (\"dedicated_workspace\", \"Dedicated Workspace\"),",
         "detail": "core.models",
         "documentation": {}
     },
